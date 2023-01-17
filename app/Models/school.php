@@ -9,7 +9,9 @@ class school extends Model
 {
     use HasFactory;
 
-    //DATOS QUE SERAN AGREGADOS A LA BASE DE DATOS
+
+    /* A list of all the fields that can be filled in the database. */
+    /* Una lista de todos los campos que se pueden completar en la base de datos. */
     protected $fillable = [
 
         'hs_id',

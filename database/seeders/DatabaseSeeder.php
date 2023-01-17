@@ -17,7 +17,9 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
 
-        //MANDAR A LLAMAR EL FACTORY, EJECUTANDO SEEDERS
+
+        /* Creating 100 registers in the database. */
+        /* Creación de 100 registros en la base de datos. */
         \App\Models\school::factory(100)->create();
     }
 }

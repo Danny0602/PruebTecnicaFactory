@@ -6,10 +6,9 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+    
     /**
-     * Run the migrations.
-     *
-     * @return void
+     * Crea la tabla schools con los campos que se le indican.
      */
     public function up()
     {
@@ -46,10 +45,9 @@ return new class extends Migration
         });
     }
 
+
     /**
-     * Reverse the migrations.
-     *
-     * @return void
+     * The down() function is used to undo the changes made by the up() function
      */
     public function down()
     {

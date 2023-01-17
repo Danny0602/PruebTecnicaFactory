@@ -15,10 +15,14 @@ class schoolFactory extends Factory
     protected $model  = school::class;
 
 
+  /**
+   * It returns an array of data that will be used to create a new record in the database
+   */
     public function definition()
     {
         //DIRECCION GENERADA
         $address = $this->faker->address ;
+        
         //DIRECCION RECORTADA DE LA PRINCIPAL
         $address_short = Str::words($address, 2 );
 
